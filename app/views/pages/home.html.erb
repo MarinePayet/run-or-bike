@@ -1,2 +1,42 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
+<%#= <img_path src="affiche.png" alt="affiche">%>
+<div class= "container-fluid">
+  <div class="row">
+
+
+    <div class="col-6">
+      <%= image_tag("affiche.png", class: "affiche" )%>
+    </div>
+
+    <div class="col-6">
+      <p> Infos
+        <ul>
+          <li>7h30: Mise en place de l’accueil / petit déjeuner / Stand vélo(Lokmi)</li>
+          <li>8h30: Arrivée des participants au camping la Foret du Pilat</li>
+          <li>Vérification du Pass sanitaire</li>
+          <li>Remise pique – nique et tee shirt</li>
+          <li>Café d’accueil</li>
+          <li>Vérification des vélos</li>
+          <li>Discours de départ</li>
+          <li>9h00: Départ du camping vers la jetée Thiers par les pistes cyclables = 13km</li>
+          <li>10h00: Navette Maritime (arrivée 15 min avant) Hélène voiture balai + présentation pass sanitaire UBA</li>
+          <li>10h40: Arrivée Jeté Bélisaire au cap ferret (1 personne présente pour accueillir le groupe ou membre de l’asso dans la navette maritime)</li>
+          <li>11h00: Départ des participants du cap Ferret direction Port du Cassy (Lanton)</li>
+          <li>13h30: Port de Cassy (Lanton) Mise en place ravitaillement + Ramassage si nécessaire à 15h00</li>
+          <li>14h30: Le Teich Mise en place ravitaillement + Ramassage si nécessaire à 16h30</li>
+          <li>16h30: Ouverture et Privatisation du SPA au camping pour les premier arrivant (Sauna/hammam/jaccuzzi)</li>
+          <li>17h30: Dernières arrivées au camping</li>
+          <li>Moment détente au camping / Accès aux sanitaires communs pour douche</li>
+          <li>19h00-22h00: Cocktail Dinatoire au restaurant du camping</li>
+        </ul>
+        <button> Afficher la feuille d'inscription </button>
+<%#<a href="/app/assets/images/Inscription_RBS">Continue</a>%>
+        <%= link_to "test", "http://www.google.com" %>
+        <a href="www.google.com">Continue</a>
+      </p>
+
+    </div>
+
+  </div>
+</div>

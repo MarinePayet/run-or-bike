@@ -122,6 +122,7 @@ GEM
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     orm_adapter (0.5.0)
+    pdfmonkey (0.5.0)
     pg (1.2.3)
     pry (0.13.1)
       coderay (~> 1.1)
@@ -246,6 +247,7 @@ DEPENDENCIES
   font-awesome-sass
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  pdfmonkey
   pg (~> 1.1)
   pry-byebug
   pry-rails

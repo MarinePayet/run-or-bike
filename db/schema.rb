@@ -10,10 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_28_192633) do
+ActiveRecord::Schema.define(version: 2021_10_03_202346) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "inscriptions", force: :cascade do |t|
+    t.string "name"
+    t.string "last_name"
+    t.date "birthday"
+    t.string "sex"
+    t.text "adress"
+    t.integer "postal_code"
+    t.string "city"
+    t.integer "phone_number"
+    t.string "email"
+    t.text "people_to_contact"
+    t.string "size"
+    t.text "velo_type"
+    t.string "menu"
+    t.text "people_you_paid_for"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
