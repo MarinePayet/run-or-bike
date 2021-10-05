@@ -14,9 +14,39 @@
 .affiche {
   width: 600px;
   height: 800px;
-  background-color: red;
 }
 
 .main-container {
     display: flex;
 }
+
+.infos{
+  width: 600px;
+  height: 800px;
+  padding-left: 80px;
+}
+
+@media(max-width: 992px) {
+  .affiche {
+    width: 600px;
+    height: 800px;
+  }
+  .infos{
+    width: 600px;
+    height: 800px;
+    padding-left: 80px;
+  }
+}
+
+@media(max-width: 768px) {
+  .affiche {
+    width: 600px;
+    height: 800px;
+  }
+  .infos{
+    width: 600px;
+    height: 800px;
+    padding-left: 80px;
+  }
+}
+
